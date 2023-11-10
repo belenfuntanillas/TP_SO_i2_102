@@ -2,3 +2,31 @@ Alumnos:
 Funtanillas, Belén
 Fonseca, Lautaro
 Deneka, Germán
+
+Pregunta e)
+- 1: Belen Funtanillas
+  - Crea el repositorio y el archivo fork.txt en GitHub
+- 2: German Deneka
+  - Crea el Fork en GitHub
+  - git clone https://github.com/GermiD/TP_SO_i2_102.git
+  - git add fork.txt
+  - git commit -m "<Mensaje>"
+  - git push
+- 3: Lautaro Joaquin Fonseca
+  - Crea el Fork en GitHub
+  - git clone https://github.com/Whoolister/TP_SO_i2_102.git
+  - git add fork.txt
+  - git commit -m "<Mensaje>"
+  - git push
+- 4: Belen Funtanillas
+  - git add NuevoDato.txt
+  - git commit -m "<Mensaje>"
+  - git push
+- 5: German Deneka y  Lautaro Joaquin Fonseca
+  - git remote add upstream https://github.com/belenfuntanillas/TP_SO_i2_102.git
+  - git fetch upstream
+  - git rebase upstream/main
+- 6: Belen Funtanillas
+  - git add respuesta_I2_102
+  - git commit -m "<Mensaje>"
+  - git push
