@@ -4,5 +4,42 @@ Fonseca, Lautaro
 Deneka, Germán
 
 a) Haciendo un git pull origin main
+
 b) Sí, haciendo un git remote add "Alias" "URL_destino". Siendo "Alias" un nombre que le coloco para hacer referencia y URL destino siendo la URL del repo remoto forkeado.
+
+Pregunta c)
+Si, del mismo modo, gamma puede actualizar su fork al estado del fork de alfa utilizando el proceso de sincronización.
+
+Prefunta d)
+No, los datos que tenias en tu repositorio original no se pierden cuando actuzalizas tu fork. 
+Sin embargo, si puede haber conflictos entre las modificaciones que realizaste en tu fork y las modificaciones en el repositorio original.
+
+Pregunta e)
+- 1: Belen Funtanillas
+  - Crea el repositorio y el archivo fork.txt en GitHub
+- 2: German Deneka
+  - Crea el Fork en GitHub
+  - git clone https://github.com/GermiD/TP_SO_i2_102.git
+  - git add fork.txt
+  - git commit -m "<Mensaje>"
+  - git push
+- 3: Lautaro Joaquin Fonseca
+  - Crea el Fork en GitHub
+  - git clone https://github.com/Whoolister/TP_SO_i2_102.git
+  - git add fork.txt
+  - git commit -m "<Mensaje>"
+  - git push
+- 4: Belen Funtanillas
+  - git add NuevoDato.txt
+  - git commit -m "<Mensaje>"
+  - git push
+- 5: German Deneka y  Lautaro Joaquin Fonseca
+  - git remote add upstream https://github.com/belenfuntanillas/TP_SO_i2_102.git
+  - git fetch upstream
+  - git rebase upstream/main
+- 6: Belen Funtanillas
+  - git add respuesta_I2_102
+  - git commit -m "<Mensaje>"
+  - git push
+
 
