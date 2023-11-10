@@ -3,6 +3,10 @@ Funtanillas, Belén
 Fonseca, Lautaro
 Deneka, Germán
 
+a) Haciendo un git pull origin main
+
+b) Sí, haciendo un git remote add "Alias" "URL_destino". Siendo "Alias" un nombre que le coloco para hacer referencia y URL destino siendo la URL del repo remoto forkeado.
+
 Pregunta c)
 Si, del mismo modo, gamma puede actualizar su fork al estado del fork de alfa utilizando el proceso de sincronización.
 
@@ -37,3 +41,5 @@ Pregunta e)
   - git add respuesta_I2_102
   - git commit -m "<Mensaje>"
   - git push
+
+
