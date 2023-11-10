@@ -2,3 +2,7 @@ Alumnos:
 Funtanillas, Belén
 Fonseca, Lautaro
 Deneka, Germán
+
+a) Haciendo un git pull origin main
+b) Sí, haciendo un git remote add "Alias" "URL_destino". Siendo "Alias" un nombre que le coloco para hacer referencia y URL destino siendo la URL del repo remoto forkeado.
+
